@@ -8,7 +8,7 @@ if (isset($_SESSION["user_id"])) {
     $user_id = $_SESSION["user_id"];
     // Add any other session variables you need here
 } else {
-    // The user is not logged in, redirect to the login form
+    // The user is not logged in, redirect to the login for
     header("Location: login.php");
     exit;
 }
